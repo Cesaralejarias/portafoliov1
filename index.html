@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Personal</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <img src="./img/office.png" alt="Imagen de cabecera">
+    <h1>Cesar Arias</h1>
+    <p>Hola mi nombre es Cesar Arias, Egresado de Computación e Informática con experiencia en desarrollo web (HTML, CSS y JavaScript) y conocimiento enplataformas como Wordpress y Shopify.
+      Además de AWS y AZURE. Dominio en Microsoft Office. Soy políglota y puedo comunicarme en tres idiomas inglés,portugués e italiano. Actualmente en 9°ciclo de Ingeniería de Sistemas en la Universidad Norbert Wiener. 
+      Amplío mi formación en plataformas como Platzi. Busco oportunidades para aplicar y mejorar mis habilidades en un entorno dinámico y creativo.
+      </p>
+    <ul>
+        <!-- Enlaces a redes sociales -->
+        <li><a href="https://pe.linkedin.com/in/cesar-arias-813130b4">LinkedIn</a></li>
+        <li><a href="https://twitter.com/cesaralejarias">Twitter</a></li>
+        <li><a href="https://github.com/cesaralejarias">GitHub</a></li>
+        <!-- Agrega más enlaces a tus redes sociales aquí -->
+    </ul>
+  </section>
+
+  <!-- Sección de habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="container2">
+      <h1>Mis Habilidades</h1>
+      <div class="skill">
+          <img src="./img/html5.png" alt="HTML">
+          <p>HTML</p>
+      </div>
+      <div class="skill">
+          <img src="./img/CSS3.png" alt="CSS">
+          <p>CSS</p>
+      </div>
+      <div class="skill">
+          <img src="./img/javascript.png" alt="JavaScript">
+          <p>JavaScript</p>
+      </div>
+      <div class="skill">
+          <img src="./img/habil.png" alt="Otras Habilidades">
+          <p>Otras Habilidades</p>
+      </div>
+      <!-- Agrega más habilidades aquí -->
+  </div>
+  </section>
+
+  <!-- Sección de proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="container1">
+      <Center>
+      <h1>Mis Proyectos</h1>
+      <div class="project-card" onclick="openLink('https://cesaralejarias.github.io/pokemon/')">
+          <h2>Pokémon Maquetación y animaciones CSS</h2>
+          <p>Maquetación de un rediseño de página web de Pokémones iniciales con animaciones web y micro interacciones.</p>
+          <div class="project-links">
+              <a href="https://cesaralejarias.github.io/pokemon/" target="_blank">Sitio web</a>
+              <a href="https://github.com/cesaralejarias" target="_blank">GitHub</a>
+            
+          </div>
+      </div>
+      <div class="project-card" onclick="openLink('https://cesaralejarias.github.io/blogarias/')">
+          <h2>Blog Arias Real Estate</h2>
+          <p>La construcción de un blog enfocado en bienes Raíces, donde se puede ver foto de la propiedad y una breve descripción.</p>
+          <div class="project-links">
+              <a href="https://cesaralejarias.github.io/blogarias/" target="_blank">Sitio web</a>
+              <a href="https://github.com/cesaralejarias" target="_blank">GitHub</a>
+          </div>
+      </div></Center>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="container">
+      <h1>Formulario de Contacto</h1>
+      <form id="contactForm">
+          <div class="form-group">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Mensaje:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Enviar Mensaje</button>
+      </form>
+      <div id="statusMessage"></div>
+  </div>
+  <script src="script.js"></script>
+
+    <p>Puedes contactarme a través de los siguientes medios:</p>
+    <ul>
+      <center>
+      <li>Email: cesar_pok30@hotmail.com</li>
+      <li>Whatsapp: +51944791625</li>
+      </center>
+    </ul>
+  </section>
+
+  <!-- Puedes agregar más secciones según tus necesidades -->
+
+</body>
+</html>

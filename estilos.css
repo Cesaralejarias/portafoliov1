@@ -1,0 +1,213 @@
+ /* Reset de estilos para el body */
+ body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilos generales para los encabezados */
+  h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  h1 {
+      margin-bottom: 20px;
+  }
+
+  /* Estilos para la sección de inicio */
+  #inicio {
+    padding: 100px;
+    background-color: #F6F4EB;
+    text-align: center;
+  }
+
+  #inicio img {
+    width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+    height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+    border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  /* Estilos para la sección de habilidades */
+  #habilidades {
+    padding: 50px;
+    background-color: #91C8E4;
+  }
+
+  /* Estilos para la lista de habilidades */
+  #habilidades ul {
+    list-style-type: none;
+  }
+
+  /* Estilos para la sección de proyectos */
+  #proyectos {
+    padding: 50px;
+    background-color: #749BC2;
+  }
+
+  /* Estilos para la lista de proyectos */
+  #proyectos ul {
+    list-style-type: none;
+  }
+
+  /* Estilos para la sección de contacto */
+  #contacto {
+    padding: 50px;
+    background-color: #4682A9;
+  }
+
+  /* Estilos para la lista de contacto */
+  #contacto ul {
+    list-style-type: none;
+  }
+
+  /* Estilos generales para los párrafos y listas */
+  p, ul {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+
+  p {
+      max-width: 1000px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 20px;
+  }
+
+  ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  /* Estilos para los elementos de lista */
+  li {
+    display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+    margin-right: 10px; /* Espaciado entre los elementos de lista */
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#statusMessage {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.project-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.skill {
+    text-align: center;
+    margin-bottom: 20px 30px;
+    flex: 0 0 200px;
+}
+
+.skill img {
+    width: 80px;
+}
+
+.skill p {
+    margin-top: 10px;
+}
